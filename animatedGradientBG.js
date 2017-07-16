@@ -19,7 +19,8 @@ var step = 0;
 var colorIndices = [0,1,2,3];
 
 //transition speed
-var gradientSpeed = .015;
+//var gradientSpeed = .015;
+var gradientSpeed = 2;
 
 function updateGradient()
 {
