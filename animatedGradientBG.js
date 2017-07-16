@@ -27,7 +27,7 @@ var c0_0 = colors[colorIndices[0]];
 var c0_1 = colors[colorIndices[1]];
 var c1_0 = colors[colorIndices[2]];
 var c1_1 = colors[colorIndices[3]];
-/*
+
 var istep = 1 - step;
 var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
 var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
@@ -38,7 +38,7 @@ var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
 var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
 var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
 var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
-*/
+
  $('#gradient').css({
    
    
